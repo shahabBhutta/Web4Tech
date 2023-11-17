@@ -104,7 +104,7 @@ main{
 /*              */
 
 #services-sec{
-    height: 950px;
+    height: 1100px;
     width: 100%;
     padding-top: 10px;
     background-color: #f4f4f4;
@@ -179,6 +179,60 @@ margin-top: 30px;
 .service-card-para p{
     text-align: center;
     color: #707070;
+}
+#progress{
+    width: 100%;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+
+
+}
+.progress-outter{
+    display: flex;
+    margin: 50px 20px;
+    width: 80%;
+
+
+}
+.progress-inner{
+    width: 60%;
+    margin: 0px 20px;
+    background-color: #ffffff;
+    padding: 10px;
+}
+.bar-ps p{
+
+    /* background-color: yellow;
+    height: 30px; */
+}
+.bar{
+    background-color:#ffe500;
+    height: 10px;
+    width: 80%;
+    border-radius: 20px;
+    margin: 10px 0px;
+}
+.bar-sw{
+    background-color:#ffe500;
+    height: 10px;
+    width: 30%;
+    border-radius: 20px;
+    margin: 10px 0px;
+}
+.bar-c{
+    background-color:#ffe500;
+    height: 10px;
+    width: 50%;
+    border-radius: 20px;
+    margin: 10px 0px;
+}
+.bar-ux{
+    background-color:#ffe500;
+    height: 10px;
+    width: 50%;
+    border-radius: 20px;
+    margin: 10px 0px;
 }
 /*                */
 /*  Service card End */ 
